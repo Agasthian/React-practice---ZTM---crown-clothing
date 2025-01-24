@@ -31,6 +31,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@testing-library/jest-dom", "npm:5.17.0"],\
             ["@testing-library/react", "virtual:67e751745c0b5147365acf23cf80cf3aa0f6bfc388c55c912071acc37d4a8fce158a51efa3d34f893428005160afeedc674ef707261fa672180108cd4585e13e#npm:13.4.0"],\
             ["@testing-library/user-event", "virtual:67e751745c0b5147365acf23cf80cf3aa0f6bfc388c55c912071acc37d4a8fce158a51efa3d34f893428005160afeedc674ef707261fa672180108cd4585e13e#npm:13.5.0"],\
+            ["firebase", "npm:11.2.0"],\
             ["react", "npm:19.0.0"],\
             ["react-dom", "virtual:67e751745c0b5147365acf23cf80cf3aa0f6bfc388c55c912071acc37d4a8fce158a51efa3d34f893428005160afeedc674ef707261fa672180108cd4585e13e#npm:19.0.0"],\
             ["react-router-dom", "virtual:67e751745c0b5147365acf23cf80cf3aa0f6bfc388c55c912071acc37d4a8fce158a51efa3d34f893428005160afeedc674ef707261fa672180108cd4585e13e#npm:6.28.2"],\
@@ -3511,6 +3512,1107 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@firebase/analytics", [\
+        ["npm:0.10.11", {\
+          "packageLocation": "./.yarn/cache/@firebase-analytics-npm-0.10.11-ca0abefd2b-53d6bb9364.zip/node_modules/@firebase/analytics/",\
+          "packageDependencies": [\
+            ["@firebase/analytics", "npm:0.10.11"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.10.11", {\
+          "packageLocation": "./.yarn/__virtual__/@firebase-analytics-virtual-b194c6c252/0/cache/@firebase-analytics-npm-0.10.11-ca0abefd2b-53d6bb9364.zip/node_modules/@firebase/analytics/",\
+          "packageDependencies": [\
+            ["@firebase/analytics", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.10.11"],\
+            ["@firebase/app", "npm:0.10.18"],\
+            ["@firebase/component", "npm:0.6.12"],\
+            ["@firebase/installations", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.6.12"],\
+            ["@firebase/logger", "npm:0.4.4"],\
+            ["@firebase/util", "npm:1.10.3"],\
+            ["@types/firebase__app", null],\
+            ["tslib", "npm:2.8.1"]\
+          ],\
+          "packagePeers": [\
+            "@firebase/app",\
+            "@types/firebase__app"\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["virtual:f25fe8a3c109d82da0826fabd11559dd951c51124ccb7184316612ae8a820b22b5d7d6ca7d2233c22934878530d7ccf6756763223d426ec09759d823bf78291c#npm:0.10.11", {\
+          "packageLocation": "./.yarn/__virtual__/@firebase-analytics-virtual-0cc9b79506/0/cache/@firebase-analytics-npm-0.10.11-ca0abefd2b-53d6bb9364.zip/node_modules/@firebase/analytics/",\
+          "packageDependencies": [\
+            ["@firebase/analytics", "virtual:f25fe8a3c109d82da0826fabd11559dd951c51124ccb7184316612ae8a820b22b5d7d6ca7d2233c22934878530d7ccf6756763223d426ec09759d823bf78291c#npm:0.10.11"],\
+            ["@firebase/app", null],\
+            ["@firebase/component", "npm:0.6.12"],\
+            ["@firebase/installations", "virtual:0cc9b79506e98a2d8fbe86b4656502a1cdcff4ae18aef2ca443abfd55ad5cf7ebf9c2c785109ed07993f409193607fd53b5a45522e5c2d9121bad563e0e88f13#npm:0.6.12"],\
+            ["@firebase/logger", "npm:0.4.4"],\
+            ["@firebase/util", "npm:1.10.3"],\
+            ["@types/firebase__app", null],\
+            ["tslib", "npm:2.8.1"]\
+          ],\
+          "packagePeers": [\
+            "@firebase/app",\
+            "@types/firebase__app"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@firebase/analytics-compat", [\
+        ["npm:0.2.17", {\
+          "packageLocation": "./.yarn/cache/@firebase-analytics-compat-npm-0.2.17-6f631e772d-caf317c6a8.zip/node_modules/@firebase/analytics-compat/",\
+          "packageDependencies": [\
+            ["@firebase/analytics-compat", "npm:0.2.17"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.2.17", {\
+          "packageLocation": "./.yarn/__virtual__/@firebase-analytics-compat-virtual-f25fe8a3c1/0/cache/@firebase-analytics-compat-npm-0.2.17-6f631e772d-caf317c6a8.zip/node_modules/@firebase/analytics-compat/",\
+          "packageDependencies": [\
+            ["@firebase/analytics-compat", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.2.17"],\
+            ["@firebase/analytics", "virtual:f25fe8a3c109d82da0826fabd11559dd951c51124ccb7184316612ae8a820b22b5d7d6ca7d2233c22934878530d7ccf6756763223d426ec09759d823bf78291c#npm:0.10.11"],\
+            ["@firebase/analytics-types", "npm:0.8.3"],\
+            ["@firebase/app-compat", "npm:0.2.48"],\
+            ["@firebase/component", "npm:0.6.12"],\
+            ["@firebase/util", "npm:1.10.3"],\
+            ["@types/firebase__app-compat", null],\
+            ["tslib", "npm:2.8.1"]\
+          ],\
+          "packagePeers": [\
+            "@firebase/app-compat",\
+            "@types/firebase__app-compat"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@firebase/analytics-types", [\
+        ["npm:0.8.3", {\
+          "packageLocation": "./.yarn/cache/@firebase-analytics-types-npm-0.8.3-f283757666-43ede95ee4.zip/node_modules/@firebase/analytics-types/",\
+          "packageDependencies": [\
+            ["@firebase/analytics-types", "npm:0.8.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@firebase/app", [\
+        ["npm:0.10.18", {\
+          "packageLocation": "./.yarn/cache/@firebase-app-npm-0.10.18-fd0d5af086-45d012d903.zip/node_modules/@firebase/app/",\
+          "packageDependencies": [\
+            ["@firebase/app", "npm:0.10.18"],\
+            ["@firebase/component", "npm:0.6.12"],\
+            ["@firebase/logger", "npm:0.4.4"],\
+            ["@firebase/util", "npm:1.10.3"],\
+            ["idb", "npm:7.1.1"],\
+            ["tslib", "npm:2.8.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@firebase/app-check", [\
+        ["npm:0.8.11", {\
+          "packageLocation": "./.yarn/cache/@firebase-app-check-npm-0.8.11-492e441cfa-7a7fdeebec.zip/node_modules/@firebase/app-check/",\
+          "packageDependencies": [\
+            ["@firebase/app-check", "npm:0.8.11"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:052b5d43302c6f4cfbf6a630d00448c35948b8eaa5b80143e24c8334b143d7410d45b94727e19ce00adb3037e567518d34ecfd60302e41ec75db449a58cf9625#npm:0.8.11", {\
+          "packageLocation": "./.yarn/__virtual__/@firebase-app-check-virtual-5c32f311f2/0/cache/@firebase-app-check-npm-0.8.11-492e441cfa-7a7fdeebec.zip/node_modules/@firebase/app-check/",\
+          "packageDependencies": [\
+            ["@firebase/app-check", "virtual:052b5d43302c6f4cfbf6a630d00448c35948b8eaa5b80143e24c8334b143d7410d45b94727e19ce00adb3037e567518d34ecfd60302e41ec75db449a58cf9625#npm:0.8.11"],\
+            ["@firebase/app", null],\
+            ["@firebase/component", "npm:0.6.12"],\
+            ["@firebase/logger", "npm:0.4.4"],\
+            ["@firebase/util", "npm:1.10.3"],\
+            ["@types/firebase__app", null],\
+            ["tslib", "npm:2.8.1"]\
+          ],\
+          "packagePeers": [\
+            "@firebase/app",\
+            "@types/firebase__app"\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.8.11", {\
+          "packageLocation": "./.yarn/__virtual__/@firebase-app-check-virtual-6353480a5a/0/cache/@firebase-app-check-npm-0.8.11-492e441cfa-7a7fdeebec.zip/node_modules/@firebase/app-check/",\
+          "packageDependencies": [\
+            ["@firebase/app-check", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.8.11"],\
+            ["@firebase/app", "npm:0.10.18"],\
+            ["@firebase/component", "npm:0.6.12"],\
+            ["@firebase/logger", "npm:0.4.4"],\
+            ["@firebase/util", "npm:1.10.3"],\
+            ["@types/firebase__app", null],\
+            ["tslib", "npm:2.8.1"]\
+          ],\
+          "packagePeers": [\
+            "@firebase/app",\
+            "@types/firebase__app"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@firebase/app-check-compat", [\
+        ["npm:0.3.18", {\
+          "packageLocation": "./.yarn/cache/@firebase-app-check-compat-npm-0.3.18-e265745ccc-f9f943fafa.zip/node_modules/@firebase/app-check-compat/",\
+          "packageDependencies": [\
+            ["@firebase/app-check-compat", "npm:0.3.18"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.3.18", {\
+          "packageLocation": "./.yarn/__virtual__/@firebase-app-check-compat-virtual-052b5d4330/0/cache/@firebase-app-check-compat-npm-0.3.18-e265745ccc-f9f943fafa.zip/node_modules/@firebase/app-check-compat/",\
+          "packageDependencies": [\
+            ["@firebase/app-check-compat", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.3.18"],\
+            ["@firebase/app-check", "virtual:052b5d43302c6f4cfbf6a630d00448c35948b8eaa5b80143e24c8334b143d7410d45b94727e19ce00adb3037e567518d34ecfd60302e41ec75db449a58cf9625#npm:0.8.11"],\
+            ["@firebase/app-check-types", "npm:0.5.3"],\
+            ["@firebase/app-compat", "npm:0.2.48"],\
+            ["@firebase/component", "npm:0.6.12"],\
+            ["@firebase/logger", "npm:0.4.4"],\
+            ["@firebase/util", "npm:1.10.3"],\
+            ["@types/firebase__app-compat", null],\
+            ["tslib", "npm:2.8.1"]\
+          ],\
+          "packagePeers": [\
+            "@firebase/app-compat",\
+            "@types/firebase__app-compat"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@firebase/app-check-interop-types", [\
+        ["npm:0.3.3", {\
+          "packageLocation": "./.yarn/cache/@firebase-app-check-interop-types-npm-0.3.3-f14552ae0d-f4071094f9.zip/node_modules/@firebase/app-check-interop-types/",\
+          "packageDependencies": [\
+            ["@firebase/app-check-interop-types", "npm:0.3.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@firebase/app-check-types", [\
+        ["npm:0.5.3", {\
+          "packageLocation": "./.yarn/cache/@firebase-app-check-types-npm-0.5.3-be7fd68af9-f42d181b95.zip/node_modules/@firebase/app-check-types/",\
+          "packageDependencies": [\
+            ["@firebase/app-check-types", "npm:0.5.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@firebase/app-compat", [\
+        ["npm:0.2.48", {\
+          "packageLocation": "./.yarn/cache/@firebase-app-compat-npm-0.2.48-cb641dfc0c-de8dc81e02.zip/node_modules/@firebase/app-compat/",\
+          "packageDependencies": [\
+            ["@firebase/app-compat", "npm:0.2.48"],\
+            ["@firebase/app", "npm:0.10.18"],\
+            ["@firebase/component", "npm:0.6.12"],\
+            ["@firebase/logger", "npm:0.4.4"],\
+            ["@firebase/util", "npm:1.10.3"],\
+            ["tslib", "npm:2.8.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@firebase/app-types", [\
+        ["npm:0.9.3", {\
+          "packageLocation": "./.yarn/cache/@firebase-app-types-npm-0.9.3-600a3cf392-c119b873a3.zip/node_modules/@firebase/app-types/",\
+          "packageDependencies": [\
+            ["@firebase/app-types", "npm:0.9.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@firebase/auth", [\
+        ["npm:1.8.2", {\
+          "packageLocation": "./.yarn/cache/@firebase-auth-npm-1.8.2-753b93d2b8-31ac073350.zip/node_modules/@firebase/auth/",\
+          "packageDependencies": [\
+            ["@firebase/auth", "npm:1.8.2"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:12c5f3b8cec560f2dbc5b3be67004d55743fbc9bc8945f90b5725116abae166affbbc9b13dae793473cbb6ed1d0217f373333f9338f435ae7c41caa0a31bf8d5#npm:1.8.2", {\
+          "packageLocation": "./.yarn/__virtual__/@firebase-auth-virtual-18ac4e7a35/0/cache/@firebase-auth-npm-1.8.2-753b93d2b8-31ac073350.zip/node_modules/@firebase/auth/",\
+          "packageDependencies": [\
+            ["@firebase/auth", "virtual:12c5f3b8cec560f2dbc5b3be67004d55743fbc9bc8945f90b5725116abae166affbbc9b13dae793473cbb6ed1d0217f373333f9338f435ae7c41caa0a31bf8d5#npm:1.8.2"],\
+            ["@firebase/app", null],\
+            ["@firebase/component", "npm:0.6.12"],\
+            ["@firebase/logger", "npm:0.4.4"],\
+            ["@firebase/util", "npm:1.10.3"],\
+            ["@react-native-async-storage/async-storage", null],\
+            ["@types/firebase__app", null],\
+            ["@types/react-native-async-storage__async-storage", null],\
+            ["tslib", "npm:2.8.1"]\
+          ],\
+          "packagePeers": [\
+            "@firebase/app",\
+            "@react-native-async-storage/async-storage",\
+            "@types/firebase__app",\
+            "@types/react-native-async-storage__async-storage"\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:1.8.2", {\
+          "packageLocation": "./.yarn/__virtual__/@firebase-auth-virtual-feec27ff48/0/cache/@firebase-auth-npm-1.8.2-753b93d2b8-31ac073350.zip/node_modules/@firebase/auth/",\
+          "packageDependencies": [\
+            ["@firebase/auth", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:1.8.2"],\
+            ["@firebase/app", "npm:0.10.18"],\
+            ["@firebase/component", "npm:0.6.12"],\
+            ["@firebase/logger", "npm:0.4.4"],\
+            ["@firebase/util", "npm:1.10.3"],\
+            ["@react-native-async-storage/async-storage", null],\
+            ["@types/firebase__app", null],\
+            ["@types/react-native-async-storage__async-storage", null],\
+            ["tslib", "npm:2.8.1"]\
+          ],\
+          "packagePeers": [\
+            "@firebase/app",\
+            "@react-native-async-storage/async-storage",\
+            "@types/firebase__app",\
+            "@types/react-native-async-storage__async-storage"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@firebase/auth-compat", [\
+        ["npm:0.5.17", {\
+          "packageLocation": "./.yarn/cache/@firebase-auth-compat-npm-0.5.17-004dec06e1-ecfd56f8cc.zip/node_modules/@firebase/auth-compat/",\
+          "packageDependencies": [\
+            ["@firebase/auth-compat", "npm:0.5.17"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.5.17", {\
+          "packageLocation": "./.yarn/__virtual__/@firebase-auth-compat-virtual-12c5f3b8ce/0/cache/@firebase-auth-compat-npm-0.5.17-004dec06e1-ecfd56f8cc.zip/node_modules/@firebase/auth-compat/",\
+          "packageDependencies": [\
+            ["@firebase/auth-compat", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.5.17"],\
+            ["@firebase/app-compat", "npm:0.2.48"],\
+            ["@firebase/auth", "virtual:12c5f3b8cec560f2dbc5b3be67004d55743fbc9bc8945f90b5725116abae166affbbc9b13dae793473cbb6ed1d0217f373333f9338f435ae7c41caa0a31bf8d5#npm:1.8.2"],\
+            ["@firebase/auth-types", "virtual:12c5f3b8cec560f2dbc5b3be67004d55743fbc9bc8945f90b5725116abae166affbbc9b13dae793473cbb6ed1d0217f373333f9338f435ae7c41caa0a31bf8d5#npm:0.12.3"],\
+            ["@firebase/component", "npm:0.6.12"],\
+            ["@firebase/util", "npm:1.10.3"],\
+            ["@types/firebase__app-compat", null],\
+            ["tslib", "npm:2.8.1"]\
+          ],\
+          "packagePeers": [\
+            "@firebase/app-compat",\
+            "@types/firebase__app-compat"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@firebase/auth-interop-types", [\
+        ["npm:0.2.4", {\
+          "packageLocation": "./.yarn/cache/@firebase-auth-interop-types-npm-0.2.4-1ea4afeaee-ebb205819f.zip/node_modules/@firebase/auth-interop-types/",\
+          "packageDependencies": [\
+            ["@firebase/auth-interop-types", "npm:0.2.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@firebase/auth-types", [\
+        ["npm:0.12.3", {\
+          "packageLocation": "./.yarn/cache/@firebase-auth-types-npm-0.12.3-d6e1963802-7583afd074.zip/node_modules/@firebase/auth-types/",\
+          "packageDependencies": [\
+            ["@firebase/auth-types", "npm:0.12.3"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:12c5f3b8cec560f2dbc5b3be67004d55743fbc9bc8945f90b5725116abae166affbbc9b13dae793473cbb6ed1d0217f373333f9338f435ae7c41caa0a31bf8d5#npm:0.12.3", {\
+          "packageLocation": "./.yarn/__virtual__/@firebase-auth-types-virtual-ecaff7c8e1/0/cache/@firebase-auth-types-npm-0.12.3-d6e1963802-7583afd074.zip/node_modules/@firebase/auth-types/",\
+          "packageDependencies": [\
+            ["@firebase/auth-types", "virtual:12c5f3b8cec560f2dbc5b3be67004d55743fbc9bc8945f90b5725116abae166affbbc9b13dae793473cbb6ed1d0217f373333f9338f435ae7c41caa0a31bf8d5#npm:0.12.3"],\
+            ["@firebase/app-types", null],\
+            ["@firebase/util", "npm:1.10.3"],\
+            ["@types/firebase__app-types", null],\
+            ["@types/firebase__util", null]\
+          ],\
+          "packagePeers": [\
+            "@firebase/app-types",\
+            "@firebase/util",\
+            "@types/firebase__app-types",\
+            "@types/firebase__util"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@firebase/component", [\
+        ["npm:0.6.12", {\
+          "packageLocation": "./.yarn/cache/@firebase-component-npm-0.6.12-f217a3a658-e2ac890342.zip/node_modules/@firebase/component/",\
+          "packageDependencies": [\
+            ["@firebase/component", "npm:0.6.12"],\
+            ["@firebase/util", "npm:1.10.3"],\
+            ["tslib", "npm:2.8.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@firebase/data-connect", [\
+        ["npm:0.2.0", {\
+          "packageLocation": "./.yarn/cache/@firebase-data-connect-npm-0.2.0-4718fcfe08-754601d7db.zip/node_modules/@firebase/data-connect/",\
+          "packageDependencies": [\
+            ["@firebase/data-connect", "npm:0.2.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.2.0", {\
+          "packageLocation": "./.yarn/__virtual__/@firebase-data-connect-virtual-887385651f/0/cache/@firebase-data-connect-npm-0.2.0-4718fcfe08-754601d7db.zip/node_modules/@firebase/data-connect/",\
+          "packageDependencies": [\
+            ["@firebase/data-connect", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.2.0"],\
+            ["@firebase/app", "npm:0.10.18"],\
+            ["@firebase/auth-interop-types", "npm:0.2.4"],\
+            ["@firebase/component", "npm:0.6.12"],\
+            ["@firebase/logger", "npm:0.4.4"],\
+            ["@firebase/util", "npm:1.10.3"],\
+            ["@types/firebase__app", null],\
+            ["tslib", "npm:2.8.1"]\
+          ],\
+          "packagePeers": [\
+            "@firebase/app",\
+            "@types/firebase__app"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@firebase/database", [\
+        ["npm:1.0.11", {\
+          "packageLocation": "./.yarn/cache/@firebase-database-npm-1.0.11-6ba090537f-e585353307.zip/node_modules/@firebase/database/",\
+          "packageDependencies": [\
+            ["@firebase/database", "npm:1.0.11"],\
+            ["@firebase/app-check-interop-types", "npm:0.3.3"],\
+            ["@firebase/auth-interop-types", "npm:0.2.4"],\
+            ["@firebase/component", "npm:0.6.12"],\
+            ["@firebase/logger", "npm:0.4.4"],\
+            ["@firebase/util", "npm:1.10.3"],\
+            ["faye-websocket", "npm:0.11.4"],\
+            ["tslib", "npm:2.8.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@firebase/database-compat", [\
+        ["npm:2.0.2", {\
+          "packageLocation": "./.yarn/cache/@firebase-database-compat-npm-2.0.2-1417e4879f-96f1504386.zip/node_modules/@firebase/database-compat/",\
+          "packageDependencies": [\
+            ["@firebase/database-compat", "npm:2.0.2"],\
+            ["@firebase/component", "npm:0.6.12"],\
+            ["@firebase/database", "npm:1.0.11"],\
+            ["@firebase/database-types", "npm:1.0.8"],\
+            ["@firebase/logger", "npm:0.4.4"],\
+            ["@firebase/util", "npm:1.10.3"],\
+            ["tslib", "npm:2.8.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@firebase/database-types", [\
+        ["npm:1.0.8", {\
+          "packageLocation": "./.yarn/cache/@firebase-database-types-npm-1.0.8-14f32b58c9-7579d2fc71.zip/node_modules/@firebase/database-types/",\
+          "packageDependencies": [\
+            ["@firebase/database-types", "npm:1.0.8"],\
+            ["@firebase/app-types", "npm:0.9.3"],\
+            ["@firebase/util", "npm:1.10.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@firebase/firestore", [\
+        ["npm:4.7.6", {\
+          "packageLocation": "./.yarn/cache/@firebase-firestore-npm-4.7.6-6ceba068c3-073dfa8263.zip/node_modules/@firebase/firestore/",\
+          "packageDependencies": [\
+            ["@firebase/firestore", "npm:4.7.6"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:4.7.6", {\
+          "packageLocation": "./.yarn/__virtual__/@firebase-firestore-virtual-3e85b157fb/0/cache/@firebase-firestore-npm-4.7.6-6ceba068c3-073dfa8263.zip/node_modules/@firebase/firestore/",\
+          "packageDependencies": [\
+            ["@firebase/firestore", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:4.7.6"],\
+            ["@firebase/app", "npm:0.10.18"],\
+            ["@firebase/component", "npm:0.6.12"],\
+            ["@firebase/logger", "npm:0.4.4"],\
+            ["@firebase/util", "npm:1.10.3"],\
+            ["@firebase/webchannel-wrapper", "npm:1.0.3"],\
+            ["@grpc/grpc-js", "npm:1.9.15"],\
+            ["@grpc/proto-loader", "npm:0.7.13"],\
+            ["@types/firebase__app", null],\
+            ["tslib", "npm:2.8.1"]\
+          ],\
+          "packagePeers": [\
+            "@firebase/app",\
+            "@types/firebase__app"\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["virtual:8ef11b64a4ef253a2ac2cb00e0618711d229faee2b54acbc57f56f484d438b2a65a526990e12470b2f9f7be01da9714eda88e5906890b4562265c5a43fe83bd6#npm:4.7.6", {\
+          "packageLocation": "./.yarn/__virtual__/@firebase-firestore-virtual-dc7ff1d179/0/cache/@firebase-firestore-npm-4.7.6-6ceba068c3-073dfa8263.zip/node_modules/@firebase/firestore/",\
+          "packageDependencies": [\
+            ["@firebase/firestore", "virtual:8ef11b64a4ef253a2ac2cb00e0618711d229faee2b54acbc57f56f484d438b2a65a526990e12470b2f9f7be01da9714eda88e5906890b4562265c5a43fe83bd6#npm:4.7.6"],\
+            ["@firebase/app", null],\
+            ["@firebase/component", "npm:0.6.12"],\
+            ["@firebase/logger", "npm:0.4.4"],\
+            ["@firebase/util", "npm:1.10.3"],\
+            ["@firebase/webchannel-wrapper", "npm:1.0.3"],\
+            ["@grpc/grpc-js", "npm:1.9.15"],\
+            ["@grpc/proto-loader", "npm:0.7.13"],\
+            ["@types/firebase__app", null],\
+            ["tslib", "npm:2.8.1"]\
+          ],\
+          "packagePeers": [\
+            "@firebase/app",\
+            "@types/firebase__app"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@firebase/firestore-compat", [\
+        ["npm:0.3.41", {\
+          "packageLocation": "./.yarn/cache/@firebase-firestore-compat-npm-0.3.41-8351640e95-1f78f3bc30.zip/node_modules/@firebase/firestore-compat/",\
+          "packageDependencies": [\
+            ["@firebase/firestore-compat", "npm:0.3.41"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.3.41", {\
+          "packageLocation": "./.yarn/__virtual__/@firebase-firestore-compat-virtual-8ef11b64a4/0/cache/@firebase-firestore-compat-npm-0.3.41-8351640e95-1f78f3bc30.zip/node_modules/@firebase/firestore-compat/",\
+          "packageDependencies": [\
+            ["@firebase/firestore-compat", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.3.41"],\
+            ["@firebase/app-compat", "npm:0.2.48"],\
+            ["@firebase/component", "npm:0.6.12"],\
+            ["@firebase/firestore", "virtual:8ef11b64a4ef253a2ac2cb00e0618711d229faee2b54acbc57f56f484d438b2a65a526990e12470b2f9f7be01da9714eda88e5906890b4562265c5a43fe83bd6#npm:4.7.6"],\
+            ["@firebase/firestore-types", "virtual:8ef11b64a4ef253a2ac2cb00e0618711d229faee2b54acbc57f56f484d438b2a65a526990e12470b2f9f7be01da9714eda88e5906890b4562265c5a43fe83bd6#npm:3.0.3"],\
+            ["@firebase/util", "npm:1.10.3"],\
+            ["@types/firebase__app-compat", null],\
+            ["tslib", "npm:2.8.1"]\
+          ],\
+          "packagePeers": [\
+            "@firebase/app-compat",\
+            "@types/firebase__app-compat"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@firebase/firestore-types", [\
+        ["npm:3.0.3", {\
+          "packageLocation": "./.yarn/cache/@firebase-firestore-types-npm-3.0.3-b1039d52e2-3b58d3cc6d.zip/node_modules/@firebase/firestore-types/",\
+          "packageDependencies": [\
+            ["@firebase/firestore-types", "npm:3.0.3"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:8ef11b64a4ef253a2ac2cb00e0618711d229faee2b54acbc57f56f484d438b2a65a526990e12470b2f9f7be01da9714eda88e5906890b4562265c5a43fe83bd6#npm:3.0.3", {\
+          "packageLocation": "./.yarn/__virtual__/@firebase-firestore-types-virtual-d5c30b76cd/0/cache/@firebase-firestore-types-npm-3.0.3-b1039d52e2-3b58d3cc6d.zip/node_modules/@firebase/firestore-types/",\
+          "packageDependencies": [\
+            ["@firebase/firestore-types", "virtual:8ef11b64a4ef253a2ac2cb00e0618711d229faee2b54acbc57f56f484d438b2a65a526990e12470b2f9f7be01da9714eda88e5906890b4562265c5a43fe83bd6#npm:3.0.3"],\
+            ["@firebase/app-types", null],\
+            ["@firebase/util", "npm:1.10.3"],\
+            ["@types/firebase__app-types", null],\
+            ["@types/firebase__util", null]\
+          ],\
+          "packagePeers": [\
+            "@firebase/app-types",\
+            "@firebase/util",\
+            "@types/firebase__app-types",\
+            "@types/firebase__util"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@firebase/functions", [\
+        ["npm:0.12.1", {\
+          "packageLocation": "./.yarn/cache/@firebase-functions-npm-0.12.1-9c55f985dd-ac77831010.zip/node_modules/@firebase/functions/",\
+          "packageDependencies": [\
+            ["@firebase/functions", "npm:0.12.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:30fbca75e2b1c2c1e6154ac9f831b52ada3a2d7c07f68dc157ebe29c267639b7e20043d434a2b4df05187f7f118d1538e972e5b589972aeccc6310735085dc98#npm:0.12.1", {\
+          "packageLocation": "./.yarn/__virtual__/@firebase-functions-virtual-5eb7f107c9/0/cache/@firebase-functions-npm-0.12.1-9c55f985dd-ac77831010.zip/node_modules/@firebase/functions/",\
+          "packageDependencies": [\
+            ["@firebase/functions", "virtual:30fbca75e2b1c2c1e6154ac9f831b52ada3a2d7c07f68dc157ebe29c267639b7e20043d434a2b4df05187f7f118d1538e972e5b589972aeccc6310735085dc98#npm:0.12.1"],\
+            ["@firebase/app", null],\
+            ["@firebase/app-check-interop-types", "npm:0.3.3"],\
+            ["@firebase/auth-interop-types", "npm:0.2.4"],\
+            ["@firebase/component", "npm:0.6.12"],\
+            ["@firebase/messaging-interop-types", "npm:0.2.3"],\
+            ["@firebase/util", "npm:1.10.3"],\
+            ["@types/firebase__app", null],\
+            ["tslib", "npm:2.8.1"]\
+          ],\
+          "packagePeers": [\
+            "@firebase/app",\
+            "@types/firebase__app"\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.12.1", {\
+          "packageLocation": "./.yarn/__virtual__/@firebase-functions-virtual-b4c7be9111/0/cache/@firebase-functions-npm-0.12.1-9c55f985dd-ac77831010.zip/node_modules/@firebase/functions/",\
+          "packageDependencies": [\
+            ["@firebase/functions", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.12.1"],\
+            ["@firebase/app", "npm:0.10.18"],\
+            ["@firebase/app-check-interop-types", "npm:0.3.3"],\
+            ["@firebase/auth-interop-types", "npm:0.2.4"],\
+            ["@firebase/component", "npm:0.6.12"],\
+            ["@firebase/messaging-interop-types", "npm:0.2.3"],\
+            ["@firebase/util", "npm:1.10.3"],\
+            ["@types/firebase__app", null],\
+            ["tslib", "npm:2.8.1"]\
+          ],\
+          "packagePeers": [\
+            "@firebase/app",\
+            "@types/firebase__app"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@firebase/functions-compat", [\
+        ["npm:0.3.18", {\
+          "packageLocation": "./.yarn/cache/@firebase-functions-compat-npm-0.3.18-71d9ba5de7-e1de817ae5.zip/node_modules/@firebase/functions-compat/",\
+          "packageDependencies": [\
+            ["@firebase/functions-compat", "npm:0.3.18"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.3.18", {\
+          "packageLocation": "./.yarn/__virtual__/@firebase-functions-compat-virtual-30fbca75e2/0/cache/@firebase-functions-compat-npm-0.3.18-71d9ba5de7-e1de817ae5.zip/node_modules/@firebase/functions-compat/",\
+          "packageDependencies": [\
+            ["@firebase/functions-compat", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.3.18"],\
+            ["@firebase/app-compat", "npm:0.2.48"],\
+            ["@firebase/component", "npm:0.6.12"],\
+            ["@firebase/functions", "virtual:30fbca75e2b1c2c1e6154ac9f831b52ada3a2d7c07f68dc157ebe29c267639b7e20043d434a2b4df05187f7f118d1538e972e5b589972aeccc6310735085dc98#npm:0.12.1"],\
+            ["@firebase/functions-types", "npm:0.6.3"],\
+            ["@firebase/util", "npm:1.10.3"],\
+            ["@types/firebase__app-compat", null],\
+            ["tslib", "npm:2.8.1"]\
+          ],\
+          "packagePeers": [\
+            "@firebase/app-compat",\
+            "@types/firebase__app-compat"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@firebase/functions-types", [\
+        ["npm:0.6.3", {\
+          "packageLocation": "./.yarn/cache/@firebase-functions-types-npm-0.6.3-c1a53f99ed-0e8d0bc422.zip/node_modules/@firebase/functions-types/",\
+          "packageDependencies": [\
+            ["@firebase/functions-types", "npm:0.6.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@firebase/installations", [\
+        ["npm:0.6.12", {\
+          "packageLocation": "./.yarn/cache/@firebase-installations-npm-0.6.12-1ad5933ee4-fb5323b0c4.zip/node_modules/@firebase/installations/",\
+          "packageDependencies": [\
+            ["@firebase/installations", "npm:0.6.12"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:0cc9b79506e98a2d8fbe86b4656502a1cdcff4ae18aef2ca443abfd55ad5cf7ebf9c2c785109ed07993f409193607fd53b5a45522e5c2d9121bad563e0e88f13#npm:0.6.12", {\
+          "packageLocation": "./.yarn/__virtual__/@firebase-installations-virtual-d550c33afb/0/cache/@firebase-installations-npm-0.6.12-1ad5933ee4-fb5323b0c4.zip/node_modules/@firebase/installations/",\
+          "packageDependencies": [\
+            ["@firebase/installations", "virtual:0cc9b79506e98a2d8fbe86b4656502a1cdcff4ae18aef2ca443abfd55ad5cf7ebf9c2c785109ed07993f409193607fd53b5a45522e5c2d9121bad563e0e88f13#npm:0.6.12"],\
+            ["@firebase/app", null],\
+            ["@firebase/component", "npm:0.6.12"],\
+            ["@firebase/util", "npm:1.10.3"],\
+            ["@types/firebase__app", null],\
+            ["idb", "npm:7.1.1"],\
+            ["tslib", "npm:2.8.1"]\
+          ],\
+          "packagePeers": [\
+            "@firebase/app",\
+            "@types/firebase__app"\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.6.12", {\
+          "packageLocation": "./.yarn/__virtual__/@firebase-installations-virtual-9506868b1f/0/cache/@firebase-installations-npm-0.6.12-1ad5933ee4-fb5323b0c4.zip/node_modules/@firebase/installations/",\
+          "packageDependencies": [\
+            ["@firebase/installations", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.6.12"],\
+            ["@firebase/app", "npm:0.10.18"],\
+            ["@firebase/component", "npm:0.6.12"],\
+            ["@firebase/util", "npm:1.10.3"],\
+            ["@types/firebase__app", null],\
+            ["idb", "npm:7.1.1"],\
+            ["tslib", "npm:2.8.1"]\
+          ],\
+          "packagePeers": [\
+            "@firebase/app",\
+            "@types/firebase__app"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@firebase/installations-compat", [\
+        ["npm:0.2.12", {\
+          "packageLocation": "./.yarn/cache/@firebase-installations-compat-npm-0.2.12-f52c236f56-ffd5e08e65.zip/node_modules/@firebase/installations-compat/",\
+          "packageDependencies": [\
+            ["@firebase/installations-compat", "npm:0.2.12"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.2.12", {\
+          "packageLocation": "./.yarn/__virtual__/@firebase-installations-compat-virtual-35338f3ab8/0/cache/@firebase-installations-compat-npm-0.2.12-f52c236f56-ffd5e08e65.zip/node_modules/@firebase/installations-compat/",\
+          "packageDependencies": [\
+            ["@firebase/installations-compat", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.2.12"],\
+            ["@firebase/app-compat", "npm:0.2.48"],\
+            ["@firebase/component", "npm:0.6.12"],\
+            ["@firebase/installations", "virtual:0cc9b79506e98a2d8fbe86b4656502a1cdcff4ae18aef2ca443abfd55ad5cf7ebf9c2c785109ed07993f409193607fd53b5a45522e5c2d9121bad563e0e88f13#npm:0.6.12"],\
+            ["@firebase/installations-types", "virtual:35338f3ab853d17ccd427cdcebdbf4d02e9278b36b9682e85aae8fe00e1dcc1c30eb7c089cc8b811801a048f5f445c4c171f0bbe4e9133491b7120fcd5df23a5#npm:0.5.3"],\
+            ["@firebase/util", "npm:1.10.3"],\
+            ["@types/firebase__app-compat", null],\
+            ["tslib", "npm:2.8.1"]\
+          ],\
+          "packagePeers": [\
+            "@firebase/app-compat",\
+            "@types/firebase__app-compat"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@firebase/installations-types", [\
+        ["npm:0.5.3", {\
+          "packageLocation": "./.yarn/cache/@firebase-installations-types-npm-0.5.3-22c29ab23b-872818c70d.zip/node_modules/@firebase/installations-types/",\
+          "packageDependencies": [\
+            ["@firebase/installations-types", "npm:0.5.3"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:35338f3ab853d17ccd427cdcebdbf4d02e9278b36b9682e85aae8fe00e1dcc1c30eb7c089cc8b811801a048f5f445c4c171f0bbe4e9133491b7120fcd5df23a5#npm:0.5.3", {\
+          "packageLocation": "./.yarn/__virtual__/@firebase-installations-types-virtual-56bab73f67/0/cache/@firebase-installations-types-npm-0.5.3-22c29ab23b-872818c70d.zip/node_modules/@firebase/installations-types/",\
+          "packageDependencies": [\
+            ["@firebase/installations-types", "virtual:35338f3ab853d17ccd427cdcebdbf4d02e9278b36b9682e85aae8fe00e1dcc1c30eb7c089cc8b811801a048f5f445c4c171f0bbe4e9133491b7120fcd5df23a5#npm:0.5.3"],\
+            ["@firebase/app-types", null],\
+            ["@types/firebase__app-types", null]\
+          ],\
+          "packagePeers": [\
+            "@firebase/app-types",\
+            "@types/firebase__app-types"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@firebase/logger", [\
+        ["npm:0.4.4", {\
+          "packageLocation": "./.yarn/cache/@firebase-logger-npm-0.4.4-78c2fe200b-5ab53233dd.zip/node_modules/@firebase/logger/",\
+          "packageDependencies": [\
+            ["@firebase/logger", "npm:0.4.4"],\
+            ["tslib", "npm:2.8.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@firebase/messaging", [\
+        ["npm:0.12.16", {\
+          "packageLocation": "./.yarn/cache/@firebase-messaging-npm-0.12.16-f82b9dfd7e-2322839aba.zip/node_modules/@firebase/messaging/",\
+          "packageDependencies": [\
+            ["@firebase/messaging", "npm:0.12.16"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.12.16", {\
+          "packageLocation": "./.yarn/__virtual__/@firebase-messaging-virtual-6a13bac353/0/cache/@firebase-messaging-npm-0.12.16-f82b9dfd7e-2322839aba.zip/node_modules/@firebase/messaging/",\
+          "packageDependencies": [\
+            ["@firebase/messaging", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.12.16"],\
+            ["@firebase/app", "npm:0.10.18"],\
+            ["@firebase/component", "npm:0.6.12"],\
+            ["@firebase/installations", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.6.12"],\
+            ["@firebase/messaging-interop-types", "npm:0.2.3"],\
+            ["@firebase/util", "npm:1.10.3"],\
+            ["@types/firebase__app", null],\
+            ["idb", "npm:7.1.1"],\
+            ["tslib", "npm:2.8.1"]\
+          ],\
+          "packagePeers": [\
+            "@firebase/app",\
+            "@types/firebase__app"\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["virtual:90e794343ea617d556b182887f871a1cac845a245a0d14f7399286cee242cc9e80ac8c617887e2a8302c74b190a5c5e2c4be561700d679a9923ac92aa59abe79#npm:0.12.16", {\
+          "packageLocation": "./.yarn/__virtual__/@firebase-messaging-virtual-752cf7a3ea/0/cache/@firebase-messaging-npm-0.12.16-f82b9dfd7e-2322839aba.zip/node_modules/@firebase/messaging/",\
+          "packageDependencies": [\
+            ["@firebase/messaging", "virtual:90e794343ea617d556b182887f871a1cac845a245a0d14f7399286cee242cc9e80ac8c617887e2a8302c74b190a5c5e2c4be561700d679a9923ac92aa59abe79#npm:0.12.16"],\
+            ["@firebase/app", null],\
+            ["@firebase/component", "npm:0.6.12"],\
+            ["@firebase/installations", "virtual:0cc9b79506e98a2d8fbe86b4656502a1cdcff4ae18aef2ca443abfd55ad5cf7ebf9c2c785109ed07993f409193607fd53b5a45522e5c2d9121bad563e0e88f13#npm:0.6.12"],\
+            ["@firebase/messaging-interop-types", "npm:0.2.3"],\
+            ["@firebase/util", "npm:1.10.3"],\
+            ["@types/firebase__app", null],\
+            ["idb", "npm:7.1.1"],\
+            ["tslib", "npm:2.8.1"]\
+          ],\
+          "packagePeers": [\
+            "@firebase/app",\
+            "@types/firebase__app"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@firebase/messaging-compat", [\
+        ["npm:0.2.16", {\
+          "packageLocation": "./.yarn/cache/@firebase-messaging-compat-npm-0.2.16-e0f3d7d944-1da4287367.zip/node_modules/@firebase/messaging-compat/",\
+          "packageDependencies": [\
+            ["@firebase/messaging-compat", "npm:0.2.16"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.2.16", {\
+          "packageLocation": "./.yarn/__virtual__/@firebase-messaging-compat-virtual-90e794343e/0/cache/@firebase-messaging-compat-npm-0.2.16-e0f3d7d944-1da4287367.zip/node_modules/@firebase/messaging-compat/",\
+          "packageDependencies": [\
+            ["@firebase/messaging-compat", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.2.16"],\
+            ["@firebase/app-compat", "npm:0.2.48"],\
+            ["@firebase/component", "npm:0.6.12"],\
+            ["@firebase/messaging", "virtual:90e794343ea617d556b182887f871a1cac845a245a0d14f7399286cee242cc9e80ac8c617887e2a8302c74b190a5c5e2c4be561700d679a9923ac92aa59abe79#npm:0.12.16"],\
+            ["@firebase/util", "npm:1.10.3"],\
+            ["@types/firebase__app-compat", null],\
+            ["tslib", "npm:2.8.1"]\
+          ],\
+          "packagePeers": [\
+            "@firebase/app-compat",\
+            "@types/firebase__app-compat"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@firebase/messaging-interop-types", [\
+        ["npm:0.2.3", {\
+          "packageLocation": "./.yarn/cache/@firebase-messaging-interop-types-npm-0.2.3-5d3483b6c1-1174916faa.zip/node_modules/@firebase/messaging-interop-types/",\
+          "packageDependencies": [\
+            ["@firebase/messaging-interop-types", "npm:0.2.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@firebase/performance", [\
+        ["npm:0.6.12", {\
+          "packageLocation": "./.yarn/cache/@firebase-performance-npm-0.6.12-52f7dbdd21-289f8565d9.zip/node_modules/@firebase/performance/",\
+          "packageDependencies": [\
+            ["@firebase/performance", "npm:0.6.12"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:5f07e2eea5ee9216205f5c14b6da13f6c67fc4a8bbd894c6fac675d23c865851c3025015fb06d084a1d26356d09f9c7bd8d786870aea4e137f915f49d9eeaf95#npm:0.6.12", {\
+          "packageLocation": "./.yarn/__virtual__/@firebase-performance-virtual-df18dc8268/0/cache/@firebase-performance-npm-0.6.12-52f7dbdd21-289f8565d9.zip/node_modules/@firebase/performance/",\
+          "packageDependencies": [\
+            ["@firebase/performance", "virtual:5f07e2eea5ee9216205f5c14b6da13f6c67fc4a8bbd894c6fac675d23c865851c3025015fb06d084a1d26356d09f9c7bd8d786870aea4e137f915f49d9eeaf95#npm:0.6.12"],\
+            ["@firebase/app", null],\
+            ["@firebase/component", "npm:0.6.12"],\
+            ["@firebase/installations", "virtual:0cc9b79506e98a2d8fbe86b4656502a1cdcff4ae18aef2ca443abfd55ad5cf7ebf9c2c785109ed07993f409193607fd53b5a45522e5c2d9121bad563e0e88f13#npm:0.6.12"],\
+            ["@firebase/logger", "npm:0.4.4"],\
+            ["@firebase/util", "npm:1.10.3"],\
+            ["@types/firebase__app", null],\
+            ["tslib", "npm:2.8.1"]\
+          ],\
+          "packagePeers": [\
+            "@firebase/app",\
+            "@types/firebase__app"\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.6.12", {\
+          "packageLocation": "./.yarn/__virtual__/@firebase-performance-virtual-0b02575478/0/cache/@firebase-performance-npm-0.6.12-52f7dbdd21-289f8565d9.zip/node_modules/@firebase/performance/",\
+          "packageDependencies": [\
+            ["@firebase/performance", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.6.12"],\
+            ["@firebase/app", "npm:0.10.18"],\
+            ["@firebase/component", "npm:0.6.12"],\
+            ["@firebase/installations", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.6.12"],\
+            ["@firebase/logger", "npm:0.4.4"],\
+            ["@firebase/util", "npm:1.10.3"],\
+            ["@types/firebase__app", null],\
+            ["tslib", "npm:2.8.1"]\
+          ],\
+          "packagePeers": [\
+            "@firebase/app",\
+            "@types/firebase__app"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@firebase/performance-compat", [\
+        ["npm:0.2.12", {\
+          "packageLocation": "./.yarn/cache/@firebase-performance-compat-npm-0.2.12-14b953780e-5b872f75bf.zip/node_modules/@firebase/performance-compat/",\
+          "packageDependencies": [\
+            ["@firebase/performance-compat", "npm:0.2.12"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.2.12", {\
+          "packageLocation": "./.yarn/__virtual__/@firebase-performance-compat-virtual-5f07e2eea5/0/cache/@firebase-performance-compat-npm-0.2.12-14b953780e-5b872f75bf.zip/node_modules/@firebase/performance-compat/",\
+          "packageDependencies": [\
+            ["@firebase/performance-compat", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.2.12"],\
+            ["@firebase/app-compat", "npm:0.2.48"],\
+            ["@firebase/component", "npm:0.6.12"],\
+            ["@firebase/logger", "npm:0.4.4"],\
+            ["@firebase/performance", "virtual:5f07e2eea5ee9216205f5c14b6da13f6c67fc4a8bbd894c6fac675d23c865851c3025015fb06d084a1d26356d09f9c7bd8d786870aea4e137f915f49d9eeaf95#npm:0.6.12"],\
+            ["@firebase/performance-types", "npm:0.2.3"],\
+            ["@firebase/util", "npm:1.10.3"],\
+            ["@types/firebase__app-compat", null],\
+            ["tslib", "npm:2.8.1"]\
+          ],\
+          "packagePeers": [\
+            "@firebase/app-compat",\
+            "@types/firebase__app-compat"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@firebase/performance-types", [\
+        ["npm:0.2.3", {\
+          "packageLocation": "./.yarn/cache/@firebase-performance-types-npm-0.2.3-5f97625e86-c2ee5176bf.zip/node_modules/@firebase/performance-types/",\
+          "packageDependencies": [\
+            ["@firebase/performance-types", "npm:0.2.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@firebase/remote-config", [\
+        ["npm:0.5.0", {\
+          "packageLocation": "./.yarn/cache/@firebase-remote-config-npm-0.5.0-32cf11c199-b3858946e2.zip/node_modules/@firebase/remote-config/",\
+          "packageDependencies": [\
+            ["@firebase/remote-config", "npm:0.5.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.5.0", {\
+          "packageLocation": "./.yarn/__virtual__/@firebase-remote-config-virtual-5a6fc753fa/0/cache/@firebase-remote-config-npm-0.5.0-32cf11c199-b3858946e2.zip/node_modules/@firebase/remote-config/",\
+          "packageDependencies": [\
+            ["@firebase/remote-config", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.5.0"],\
+            ["@firebase/app", "npm:0.10.18"],\
+            ["@firebase/component", "npm:0.6.12"],\
+            ["@firebase/installations", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.6.12"],\
+            ["@firebase/logger", "npm:0.4.4"],\
+            ["@firebase/util", "npm:1.10.3"],\
+            ["@types/firebase__app", null],\
+            ["tslib", "npm:2.8.1"]\
+          ],\
+          "packagePeers": [\
+            "@firebase/app",\
+            "@types/firebase__app"\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["virtual:b842876b946c8bf78f27b4194d4acff34237e70d7e0c316aae9e5401d88b8c75d22bf5cfefb428f7be2fbb2f7bdc42b7ac228f16597e4ea3568dc92aee3f690e#npm:0.5.0", {\
+          "packageLocation": "./.yarn/__virtual__/@firebase-remote-config-virtual-8c779eda47/0/cache/@firebase-remote-config-npm-0.5.0-32cf11c199-b3858946e2.zip/node_modules/@firebase/remote-config/",\
+          "packageDependencies": [\
+            ["@firebase/remote-config", "virtual:b842876b946c8bf78f27b4194d4acff34237e70d7e0c316aae9e5401d88b8c75d22bf5cfefb428f7be2fbb2f7bdc42b7ac228f16597e4ea3568dc92aee3f690e#npm:0.5.0"],\
+            ["@firebase/app", null],\
+            ["@firebase/component", "npm:0.6.12"],\
+            ["@firebase/installations", "virtual:0cc9b79506e98a2d8fbe86b4656502a1cdcff4ae18aef2ca443abfd55ad5cf7ebf9c2c785109ed07993f409193607fd53b5a45522e5c2d9121bad563e0e88f13#npm:0.6.12"],\
+            ["@firebase/logger", "npm:0.4.4"],\
+            ["@firebase/util", "npm:1.10.3"],\
+            ["@types/firebase__app", null],\
+            ["tslib", "npm:2.8.1"]\
+          ],\
+          "packagePeers": [\
+            "@firebase/app",\
+            "@types/firebase__app"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@firebase/remote-config-compat", [\
+        ["npm:0.2.12", {\
+          "packageLocation": "./.yarn/cache/@firebase-remote-config-compat-npm-0.2.12-7bd6bc7220-1dde17e75a.zip/node_modules/@firebase/remote-config-compat/",\
+          "packageDependencies": [\
+            ["@firebase/remote-config-compat", "npm:0.2.12"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.2.12", {\
+          "packageLocation": "./.yarn/__virtual__/@firebase-remote-config-compat-virtual-b842876b94/0/cache/@firebase-remote-config-compat-npm-0.2.12-7bd6bc7220-1dde17e75a.zip/node_modules/@firebase/remote-config-compat/",\
+          "packageDependencies": [\
+            ["@firebase/remote-config-compat", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.2.12"],\
+            ["@firebase/app-compat", "npm:0.2.48"],\
+            ["@firebase/component", "npm:0.6.12"],\
+            ["@firebase/logger", "npm:0.4.4"],\
+            ["@firebase/remote-config", "virtual:b842876b946c8bf78f27b4194d4acff34237e70d7e0c316aae9e5401d88b8c75d22bf5cfefb428f7be2fbb2f7bdc42b7ac228f16597e4ea3568dc92aee3f690e#npm:0.5.0"],\
+            ["@firebase/remote-config-types", "npm:0.4.0"],\
+            ["@firebase/util", "npm:1.10.3"],\
+            ["@types/firebase__app-compat", null],\
+            ["tslib", "npm:2.8.1"]\
+          ],\
+          "packagePeers": [\
+            "@firebase/app-compat",\
+            "@types/firebase__app-compat"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@firebase/remote-config-types", [\
+        ["npm:0.4.0", {\
+          "packageLocation": "./.yarn/cache/@firebase-remote-config-types-npm-0.4.0-334d891610-68c2acad00.zip/node_modules/@firebase/remote-config-types/",\
+          "packageDependencies": [\
+            ["@firebase/remote-config-types", "npm:0.4.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@firebase/storage", [\
+        ["npm:0.13.5", {\
+          "packageLocation": "./.yarn/cache/@firebase-storage-npm-0.13.5-ea69f7d293-73957bccb4.zip/node_modules/@firebase/storage/",\
+          "packageDependencies": [\
+            ["@firebase/storage", "npm:0.13.5"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.13.5", {\
+          "packageLocation": "./.yarn/__virtual__/@firebase-storage-virtual-e1e6e639a7/0/cache/@firebase-storage-npm-0.13.5-ea69f7d293-73957bccb4.zip/node_modules/@firebase/storage/",\
+          "packageDependencies": [\
+            ["@firebase/storage", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.13.5"],\
+            ["@firebase/app", "npm:0.10.18"],\
+            ["@firebase/component", "npm:0.6.12"],\
+            ["@firebase/util", "npm:1.10.3"],\
+            ["@types/firebase__app", null],\
+            ["tslib", "npm:2.8.1"]\
+          ],\
+          "packagePeers": [\
+            "@firebase/app",\
+            "@types/firebase__app"\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["virtual:76d6da69c4a2b0430ecc24930bd50e65971ab41f19fdc16af27085830b01b460f758ed1a4c370582fd6e34bf64ee566c7544c7077049184e26334862e2c35504#npm:0.13.5", {\
+          "packageLocation": "./.yarn/__virtual__/@firebase-storage-virtual-cf1983e1ea/0/cache/@firebase-storage-npm-0.13.5-ea69f7d293-73957bccb4.zip/node_modules/@firebase/storage/",\
+          "packageDependencies": [\
+            ["@firebase/storage", "virtual:76d6da69c4a2b0430ecc24930bd50e65971ab41f19fdc16af27085830b01b460f758ed1a4c370582fd6e34bf64ee566c7544c7077049184e26334862e2c35504#npm:0.13.5"],\
+            ["@firebase/app", null],\
+            ["@firebase/component", "npm:0.6.12"],\
+            ["@firebase/util", "npm:1.10.3"],\
+            ["@types/firebase__app", null],\
+            ["tslib", "npm:2.8.1"]\
+          ],\
+          "packagePeers": [\
+            "@firebase/app",\
+            "@types/firebase__app"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@firebase/storage-compat", [\
+        ["npm:0.3.15", {\
+          "packageLocation": "./.yarn/cache/@firebase-storage-compat-npm-0.3.15-4038da4bfb-8152395029.zip/node_modules/@firebase/storage-compat/",\
+          "packageDependencies": [\
+            ["@firebase/storage-compat", "npm:0.3.15"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.3.15", {\
+          "packageLocation": "./.yarn/__virtual__/@firebase-storage-compat-virtual-76d6da69c4/0/cache/@firebase-storage-compat-npm-0.3.15-4038da4bfb-8152395029.zip/node_modules/@firebase/storage-compat/",\
+          "packageDependencies": [\
+            ["@firebase/storage-compat", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.3.15"],\
+            ["@firebase/app-compat", "npm:0.2.48"],\
+            ["@firebase/component", "npm:0.6.12"],\
+            ["@firebase/storage", "virtual:76d6da69c4a2b0430ecc24930bd50e65971ab41f19fdc16af27085830b01b460f758ed1a4c370582fd6e34bf64ee566c7544c7077049184e26334862e2c35504#npm:0.13.5"],\
+            ["@firebase/storage-types", "virtual:76d6da69c4a2b0430ecc24930bd50e65971ab41f19fdc16af27085830b01b460f758ed1a4c370582fd6e34bf64ee566c7544c7077049184e26334862e2c35504#npm:0.8.3"],\
+            ["@firebase/util", "npm:1.10.3"],\
+            ["@types/firebase__app-compat", null],\
+            ["tslib", "npm:2.8.1"]\
+          ],\
+          "packagePeers": [\
+            "@firebase/app-compat",\
+            "@types/firebase__app-compat"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@firebase/storage-types", [\
+        ["npm:0.8.3", {\
+          "packageLocation": "./.yarn/cache/@firebase-storage-types-npm-0.8.3-9c3a8ae5af-4f95d2b724.zip/node_modules/@firebase/storage-types/",\
+          "packageDependencies": [\
+            ["@firebase/storage-types", "npm:0.8.3"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:76d6da69c4a2b0430ecc24930bd50e65971ab41f19fdc16af27085830b01b460f758ed1a4c370582fd6e34bf64ee566c7544c7077049184e26334862e2c35504#npm:0.8.3", {\
+          "packageLocation": "./.yarn/__virtual__/@firebase-storage-types-virtual-13eab8a2c6/0/cache/@firebase-storage-types-npm-0.8.3-9c3a8ae5af-4f95d2b724.zip/node_modules/@firebase/storage-types/",\
+          "packageDependencies": [\
+            ["@firebase/storage-types", "virtual:76d6da69c4a2b0430ecc24930bd50e65971ab41f19fdc16af27085830b01b460f758ed1a4c370582fd6e34bf64ee566c7544c7077049184e26334862e2c35504#npm:0.8.3"],\
+            ["@firebase/app-types", null],\
+            ["@firebase/util", "npm:1.10.3"],\
+            ["@types/firebase__app-types", null],\
+            ["@types/firebase__util", null]\
+          ],\
+          "packagePeers": [\
+            "@firebase/app-types",\
+            "@firebase/util",\
+            "@types/firebase__app-types",\
+            "@types/firebase__util"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@firebase/util", [\
+        ["npm:1.10.3", {\
+          "packageLocation": "./.yarn/cache/@firebase-util-npm-1.10.3-b4a2905dbb-4bd4201f0d.zip/node_modules/@firebase/util/",\
+          "packageDependencies": [\
+            ["@firebase/util", "npm:1.10.3"],\
+            ["tslib", "npm:2.8.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@firebase/vertexai", [\
+        ["npm:1.0.3", {\
+          "packageLocation": "./.yarn/cache/@firebase-vertexai-npm-1.0.3-cd5c08bb63-5ead320431.zip/node_modules/@firebase/vertexai/",\
+          "packageDependencies": [\
+            ["@firebase/vertexai", "npm:1.0.3"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:1.0.3", {\
+          "packageLocation": "./.yarn/__virtual__/@firebase-vertexai-virtual-cc311a83ea/0/cache/@firebase-vertexai-npm-1.0.3-cd5c08bb63-5ead320431.zip/node_modules/@firebase/vertexai/",\
+          "packageDependencies": [\
+            ["@firebase/vertexai", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:1.0.3"],\
+            ["@firebase/app", "npm:0.10.18"],\
+            ["@firebase/app-check-interop-types", "npm:0.3.3"],\
+            ["@firebase/app-types", "npm:0.9.3"],\
+            ["@firebase/component", "npm:0.6.12"],\
+            ["@firebase/logger", "npm:0.4.4"],\
+            ["@firebase/util", "npm:1.10.3"],\
+            ["@types/firebase__app", null],\
+            ["@types/firebase__app-types", null],\
+            ["tslib", "npm:2.8.1"]\
+          ],\
+          "packagePeers": [\
+            "@firebase/app-types",\
+            "@firebase/app",\
+            "@types/firebase__app-types",\
+            "@types/firebase__app"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@firebase/webchannel-wrapper", [\
+        ["npm:1.0.3", {\
+          "packageLocation": "./.yarn/cache/@firebase-webchannel-wrapper-npm-1.0.3-0df25ee562-94cd385738.zip/node_modules/@firebase/webchannel-wrapper/",\
+          "packageDependencies": [\
+            ["@firebase/webchannel-wrapper", "npm:1.0.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@grpc/grpc-js", [\
+        ["npm:1.9.15", {\
+          "packageLocation": "./.yarn/cache/@grpc-grpc-js-npm-1.9.15-ff69e71e58-5b0f84052a.zip/node_modules/@grpc/grpc-js/",\
+          "packageDependencies": [\
+            ["@grpc/grpc-js", "npm:1.9.15"],\
+            ["@grpc/proto-loader", "npm:0.7.13"],\
+            ["@types/node", "npm:22.10.7"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@grpc/proto-loader", [\
+        ["npm:0.7.13", {\
+          "packageLocation": "./.yarn/cache/@grpc-proto-loader-npm-0.7.13-be5b6af1c1-399c1b8a46.zip/node_modules/@grpc/proto-loader/",\
+          "packageDependencies": [\
+            ["@grpc/proto-loader", "npm:0.7.13"],\
+            ["lodash.camelcase", "npm:4.3.0"],\
+            ["long", "npm:5.2.4"],\
+            ["protobufjs", "npm:7.4.0"],\
+            ["yargs", "npm:17.7.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@humanwhocodes/config-array", [\
         ["npm:0.13.0", {\
           "packageLocation": "./.yarn/cache/@humanwhocodes-config-array-npm-0.13.0-843095a032-eae69ff913.zip/node_modules/@humanwhocodes/config-array/",\
@@ -4241,6 +5343,98 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             "webpack-hot-middleware",\
             "webpack-plugin-serve",\
             "webpack"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@protobufjs/aspromise", [\
+        ["npm:1.1.2", {\
+          "packageLocation": "./.yarn/cache/@protobufjs-aspromise-npm-1.1.2-71d00b938f-011fe7ef08.zip/node_modules/@protobufjs/aspromise/",\
+          "packageDependencies": [\
+            ["@protobufjs/aspromise", "npm:1.1.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@protobufjs/base64", [\
+        ["npm:1.1.2", {\
+          "packageLocation": "./.yarn/cache/@protobufjs-base64-npm-1.1.2-cd8ca6814a-67173ac34d.zip/node_modules/@protobufjs/base64/",\
+          "packageDependencies": [\
+            ["@protobufjs/base64", "npm:1.1.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@protobufjs/codegen", [\
+        ["npm:2.0.4", {\
+          "packageLocation": "./.yarn/cache/@protobufjs-codegen-npm-2.0.4-36e188bbe6-59240c850b.zip/node_modules/@protobufjs/codegen/",\
+          "packageDependencies": [\
+            ["@protobufjs/codegen", "npm:2.0.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@protobufjs/eventemitter", [\
+        ["npm:1.1.0", {\
+          "packageLocation": "./.yarn/cache/@protobufjs-eventemitter-npm-1.1.0-029cc7d431-0369163a3d.zip/node_modules/@protobufjs/eventemitter/",\
+          "packageDependencies": [\
+            ["@protobufjs/eventemitter", "npm:1.1.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@protobufjs/fetch", [\
+        ["npm:1.1.0", {\
+          "packageLocation": "./.yarn/cache/@protobufjs-fetch-npm-1.1.0-ca857b7df4-3fce7e09eb.zip/node_modules/@protobufjs/fetch/",\
+          "packageDependencies": [\
+            ["@protobufjs/fetch", "npm:1.1.0"],\
+            ["@protobufjs/aspromise", "npm:1.1.2"],\
+            ["@protobufjs/inquire", "npm:1.1.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@protobufjs/float", [\
+        ["npm:1.0.2", {\
+          "packageLocation": "./.yarn/cache/@protobufjs-float-npm-1.0.2-5678f64d08-5781e12412.zip/node_modules/@protobufjs/float/",\
+          "packageDependencies": [\
+            ["@protobufjs/float", "npm:1.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@protobufjs/inquire", [\
+        ["npm:1.1.0", {\
+          "packageLocation": "./.yarn/cache/@protobufjs-inquire-npm-1.1.0-3c7759e9ce-ca06f02eaf.zip/node_modules/@protobufjs/inquire/",\
+          "packageDependencies": [\
+            ["@protobufjs/inquire", "npm:1.1.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@protobufjs/path", [\
+        ["npm:1.1.2", {\
+          "packageLocation": "./.yarn/cache/@protobufjs-path-npm-1.1.2-641d08de76-856eeb532b.zip/node_modules/@protobufjs/path/",\
+          "packageDependencies": [\
+            ["@protobufjs/path", "npm:1.1.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@protobufjs/pool", [\
+        ["npm:1.1.0", {\
+          "packageLocation": "./.yarn/cache/@protobufjs-pool-npm-1.1.0-47a76f96a1-d6a34fbbd2.zip/node_modules/@protobufjs/pool/",\
+          "packageDependencies": [\
+            ["@protobufjs/pool", "npm:1.1.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@protobufjs/utf8", [\
+        ["npm:1.1.0", {\
+          "packageLocation": "./.yarn/cache/@protobufjs-utf8-npm-1.1.0-02c590807c-f9bf3163d1.zip/node_modules/@protobufjs/utf8/",\
+          "packageDependencies": [\
+            ["@protobufjs/utf8", "npm:1.1.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -6980,6 +8174,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["wrap-ansi", "npm:7.0.0"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:8.0.1", {\
+          "packageLocation": "./.yarn/cache/cliui-npm-8.0.1-3b029092cf-79648b3b00.zip/node_modules/cliui/",\
+          "packageDependencies": [\
+            ["cliui", "npm:8.0.1"],\
+            ["string-width", "npm:4.2.3"],\
+            ["strip-ansi", "npm:6.0.1"],\
+            ["wrap-ansi", "npm:7.0.0"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["co", [\
@@ -7311,6 +8515,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@testing-library/jest-dom", "npm:5.17.0"],\
             ["@testing-library/react", "virtual:67e751745c0b5147365acf23cf80cf3aa0f6bfc388c55c912071acc37d4a8fce158a51efa3d34f893428005160afeedc674ef707261fa672180108cd4585e13e#npm:13.4.0"],\
             ["@testing-library/user-event", "virtual:67e751745c0b5147365acf23cf80cf3aa0f6bfc388c55c912071acc37d4a8fce158a51efa3d34f893428005160afeedc674ef707261fa672180108cd4585e13e#npm:13.5.0"],\
+            ["firebase", "npm:11.2.0"],\
             ["react", "npm:19.0.0"],\
             ["react-dom", "virtual:67e751745c0b5147365acf23cf80cf3aa0f6bfc388c55c912071acc37d4a8fce158a51efa3d34f893428005160afeedc674ef707261fa672180108cd4585e13e#npm:19.0.0"],\
             ["react-router-dom", "virtual:67e751745c0b5147365acf23cf80cf3aa0f6bfc388c55c912071acc37d4a8fce158a51efa3d34f893428005160afeedc674ef707261fa672180108cd4585e13e#npm:6.28.2"],\
@@ -9498,6 +10703,43 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["find-up", "npm:5.0.0"],\
             ["locate-path", "npm:6.0.0"],\
             ["path-exists", "npm:4.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["firebase", [\
+        ["npm:11.2.0", {\
+          "packageLocation": "./.yarn/cache/firebase-npm-11.2.0-6bb3e22c75-58309e9e49.zip/node_modules/firebase/",\
+          "packageDependencies": [\
+            ["firebase", "npm:11.2.0"],\
+            ["@firebase/analytics", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.10.11"],\
+            ["@firebase/analytics-compat", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.2.17"],\
+            ["@firebase/app", "npm:0.10.18"],\
+            ["@firebase/app-check", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.8.11"],\
+            ["@firebase/app-check-compat", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.3.18"],\
+            ["@firebase/app-compat", "npm:0.2.48"],\
+            ["@firebase/app-types", "npm:0.9.3"],\
+            ["@firebase/auth", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:1.8.2"],\
+            ["@firebase/auth-compat", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.5.17"],\
+            ["@firebase/data-connect", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.2.0"],\
+            ["@firebase/database", "npm:1.0.11"],\
+            ["@firebase/database-compat", "npm:2.0.2"],\
+            ["@firebase/firestore", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:4.7.6"],\
+            ["@firebase/firestore-compat", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.3.41"],\
+            ["@firebase/functions", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.12.1"],\
+            ["@firebase/functions-compat", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.3.18"],\
+            ["@firebase/installations", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.6.12"],\
+            ["@firebase/installations-compat", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.2.12"],\
+            ["@firebase/messaging", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.12.16"],\
+            ["@firebase/messaging-compat", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.2.16"],\
+            ["@firebase/performance", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.6.12"],\
+            ["@firebase/performance-compat", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.2.12"],\
+            ["@firebase/remote-config", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.5.0"],\
+            ["@firebase/remote-config-compat", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.2.12"],\
+            ["@firebase/storage", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.13.5"],\
+            ["@firebase/storage-compat", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:0.3.15"],\
+            ["@firebase/util", "npm:1.10.3"],\
+            ["@firebase/vertexai", "virtual:6bb3e22c7511ac1246a516c40a7f4e597ab69f12b5e2cba734fe7d30abc44ef54ab3d800eb1fcdedf6a04da3db0fcb77712e952b51868bfa7fae8c33a2ab6d4d#npm:1.0.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -12186,6 +13428,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["lodash.camelcase", [\
+        ["npm:4.3.0", {\
+          "packageLocation": "./.yarn/cache/lodash.camelcase-npm-4.3.0-bf268e3bf0-cb9227612f.zip/node_modules/lodash.camelcase/",\
+          "packageDependencies": [\
+            ["lodash.camelcase", "npm:4.3.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["lodash.debounce", [\
         ["npm:4.0.8", {\
           "packageLocation": "./.yarn/cache/lodash.debounce-npm-4.0.8-f1d6e09799-a3f527d22c.zip/node_modules/lodash.debounce/",\
@@ -12227,6 +13478,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/lodash.uniq-npm-4.5.0-7c270dca85-a4779b57a8.zip/node_modules/lodash.uniq/",\
           "packageDependencies": [\
             ["lodash.uniq", "npm:4.5.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["long", [\
+        ["npm:5.2.4", {\
+          "packageLocation": "./.yarn/cache/long-npm-5.2.4-b96a88098c-abffed049d.zip/node_modules/long/",\
+          "packageDependencies": [\
+            ["long", "npm:5.2.4"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -15229,6 +16489,27 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["loose-envify", "npm:1.4.0"],\
             ["object-assign", "npm:4.1.1"],\
             ["react-is", "npm:16.13.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["protobufjs", [\
+        ["npm:7.4.0", {\
+          "packageLocation": "./.yarn/unplugged/protobufjs-npm-7.4.0-12c56a3adc/node_modules/protobufjs/",\
+          "packageDependencies": [\
+            ["protobufjs", "npm:7.4.0"],\
+            ["@protobufjs/aspromise", "npm:1.1.2"],\
+            ["@protobufjs/base64", "npm:1.1.2"],\
+            ["@protobufjs/codegen", "npm:2.0.4"],\
+            ["@protobufjs/eventemitter", "npm:1.1.0"],\
+            ["@protobufjs/fetch", "npm:1.1.0"],\
+            ["@protobufjs/float", "npm:1.0.2"],\
+            ["@protobufjs/inquire", "npm:1.1.0"],\
+            ["@protobufjs/path", "npm:1.1.2"],\
+            ["@protobufjs/pool", "npm:1.1.0"],\
+            ["@protobufjs/utf8", "npm:1.1.0"],\
+            ["@types/node", "npm:22.10.7"],\
+            ["long", "npm:5.2.4"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -18717,6 +19998,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["yargs-parser", "npm:20.2.9"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:17.7.2", {\
+          "packageLocation": "./.yarn/cache/yargs-npm-17.7.2-80b62638e1-73b572e863.zip/node_modules/yargs/",\
+          "packageDependencies": [\
+            ["yargs", "npm:17.7.2"],\
+            ["cliui", "npm:8.0.1"],\
+            ["escalade", "npm:3.2.0"],\
+            ["get-caller-file", "npm:2.0.5"],\
+            ["require-directory", "npm:2.1.1"],\
+            ["string-width", "npm:4.2.3"],\
+            ["y18n", "npm:5.0.8"],\
+            ["yargs-parser", "npm:21.1.1"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["yargs-parser", [\
@@ -18724,6 +20019,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/yargs-parser-npm-20.2.9-a1d19e598d-8bb69015f2.zip/node_modules/yargs-parser/",\
           "packageDependencies": [\
             ["yargs-parser", "npm:20.2.9"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:21.1.1", {\
+          "packageLocation": "./.yarn/cache/yargs-parser-npm-21.1.1-8fdc003314-ed2d96a616.zip/node_modules/yargs-parser/",\
+          "packageDependencies": [\
+            ["yargs-parser", "npm:21.1.1"]\
           ],\
           "linkType": "HARD"\
         }]\
