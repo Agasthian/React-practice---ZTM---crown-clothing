@@ -3,7 +3,8 @@ import {initializeApp} from 'firebase/app'
 import {getAuth, 
         signInWithRedirect,
         signInWithPopup,
-        GoogleAuthProvider
+        GoogleAuthProvider,
+        createUserWithEmailAndPassword
     } from 'firebase/auth'
 
 import {getFirestore,
@@ -12,6 +13,7 @@ import {getFirestore,
         setDoc
 } from 'firebase/firestore'
 // https://firebase.google.com/docs/web/setup#available-libraries
+
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
@@ -23,6 +25,7 @@ const firebaseConfig = {
     messagingSenderId: "377201688268",
     appId: "1:377201688268:web:65c1d836ca1c6b4c"
   };
+  
   
   // Initialize Firebase
   const firebaseApp = initializeApp(firebaseConfig);
@@ -36,33 +39,45 @@ const firebaseConfig = {
   export const auth = getAuth()
   export const signInWithGooglePopup = () => signInWithPopup(auth, provider)
 
+
 //Instantiate firestore db
 export const db = getFirestore()
 
-//access the db
-export const createUserDocumentFromAuth = async (userAuth) => {
-//the user uid from response is used as unique document id 
-const userDocRef = doc(db, 'users', userAuth.uid)
 
-//userSnapshot
-const userSnapshot = await getDoc(userDocRef)
-//console.log(userSnapshot.exists())
+//access the db // used inside singin.component.jsx file
+//this function takes user data as input and store in tha firebase db. The user data is generated from
+//signInWithGooglePopup service from 'firebase/auth'
+export const createUserDocumentFromAuth = async (userAuth,additionalInfo) => {
+  if(!userAuth) return;
+    //the user uid from response is used as unique document id 
+    const userDocRef = doc(db, 'users', userAuth.uid)
 
-if(! userSnapshot.exists()) {
-  const {displayName, email} = userAuth;
-  const createdAt = new Date();
-  try {
-    await setDoc(userDocRef,{
-      displayName,
-      email,
-      createdAt
-    })    
-  } catch (error) {
-    console.log('Error creating the user', error.message)
-  }
+    //userSnapshot
+    const userSnapshot = await getDoc(userDocRef)
+    //console.log(userSnapshot.exists())
 
-  return userDocRef;
+    if(! userSnapshot.exists()) {
+      const {displayName, email} = userAuth;
+      const createdAt = new Date();
+      try {
+        await setDoc(userDocRef,{
+          displayName,
+          email,
+          createdAt,
+          ...additionalInfo //the additinal indo holds the display name from sign up form.it is not generated automatically like signinwith google pop up. so we pass it here so it is not null in firestore db
+        })    
+      } catch (error) {
+        console.log('Error creating the user', error.message)
+      }
+
+      return userDocRef;
+    }
 }
 
-
+//This function uses a firebase service to crete users with email & password. fn used in signup component.jsx
+//'createUserWithEmailAndPassword' Imported at top.
+export const createAuthUserWithEmailAndPassword = async (email , password) =>{
+  if(!email || !password)
+    return;
+  return await createUserWithEmailAndPassword(auth, email, password)
 }
