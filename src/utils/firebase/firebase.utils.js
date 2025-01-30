@@ -4,7 +4,8 @@ import {getAuth,
         signInWithRedirect,
         signInWithPopup,
         GoogleAuthProvider,
-        createUserWithEmailAndPassword
+        createUserWithEmailAndPassword,
+        signInWithEmailAndPassword 
     } from 'firebase/auth'
 
 import {getFirestore,
@@ -44,9 +45,9 @@ const firebaseConfig = {
 export const db = getFirestore()
 
 
-//access the db // used inside singin.component.jsx file
-//this function takes user data as input and store in tha firebase db. The user data is generated from
 //signInWithGooglePopup service from 'firebase/auth'
+//access the db // used inside singin.component.jsx file
+//this function takes user data as input and store in tha firebase db. The user data is generated from signInWithGooglePopup
 export const createUserDocumentFromAuth = async (userAuth,additionalInfo) => {
   if(!userAuth) return;
     //the user uid from response is used as unique document id 
@@ -74,10 +75,16 @@ export const createUserDocumentFromAuth = async (userAuth,additionalInfo) => {
     }
 }
 
+//createUserWithEmailAndPassword
 //This function uses a firebase service to crete users with email & password. fn used in signup component.jsx
-//'createUserWithEmailAndPassword' Imported at top.
 export const createAuthUserWithEmailAndPassword = async (email , password) =>{
   if(!email || !password)
     return;
   return await createUserWithEmailAndPassword(auth, email, password)
+}
+
+//signInWithEmailAndPassword  - function sign-in user with wmail & password
+export const createAuthSignInWithEmailAndPassword = async(email, password) => {
+  if(!email || !password ) return;
+  return await signInWithEmailAndPassword(auth, email, password)
 }
