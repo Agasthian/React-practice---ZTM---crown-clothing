@@ -1,9 +1,9 @@
 import React,{useState} from 'react'
+
 import FormInput from '../form-input/form-input.component'
 import Button from '../button/button.component'
 import {
     signInWithGooglePopup,
-    createUserDocumentFromAuth,
     createAuthSignInWithEmailAndPassword
     } from '../../utils/firebase/firebase.utils'
 import './sign-in-form.styles.scss'
@@ -20,16 +20,17 @@ const SignInForm = () => {
     //Destructring
     const {email, password} = signInFields
 
+
     //signInUserWith Google sign in btn pop-up
     const signInWithGoogle =async ()=>{
         const  {user} = await signInWithGooglePopup()
-        createUserDocumentFromAuth(user) 
+        
         //console.log(response) // the response{user} is sent to firebase.utils.js - createUserdocFromAuth - to store in firebase db
     }
 
     //onHandle Reset
     const onResetFormFields = () => {
-        setSignInFields(defaultSignUpFields)
+        setSignInFields(defaultSignInFields)
     }
 
     //onhandleChange
@@ -42,8 +43,8 @@ const SignInForm = () => {
     const onHandleSubmit = async (e) =>{
         e.preventDefault()
         try{
-            const {user} =await createAuthSignInWithEmailAndPassword(email, password)
-            console.log(user)
+            await createAuthSignInWithEmailAndPassword(email, password)
+            //console.log(user)
             onResetFormFields()
         }catch(error){
             switch(error.code){

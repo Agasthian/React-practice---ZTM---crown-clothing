@@ -4,8 +4,10 @@ import {
     createAuthUserWithEmailAndPassword,
     createUserDocumentFromAuth
 } from '../../utils/firebase/firebase.utils'
+
 import FormInput from '../form-input/form-input.component'
 import Button from '../button/button.component'
+
 import './sign-up-form.styles.scss'
 
 const defaultSignUpFields = {
@@ -21,7 +23,7 @@ const SignUpForm = () => {
     const [signUpFields, setSignUpFields]= useState(defaultSignUpFields); // useState
     const {displayName,email,password,confirmPassword} = signUpFields; // de-structring for value in input fields
 
-    console.log(signUpFields)
+    //console.log(signUpFields)
 
     //handle reset form fields afer submit
     const onResetFormFields = () => {
@@ -39,7 +41,7 @@ const SignUpForm = () => {
         event.preventDefault()
         if(password === confirmPassword){
             try{
-                const {user}= await createAuthUserWithEmailAndPassword(email, password)
+                await createAuthUserWithEmailAndPassword(email, password)
                 await createUserDocumentFromAuth(user,{displayName})
                 onResetFormFields()
             }catch(error){

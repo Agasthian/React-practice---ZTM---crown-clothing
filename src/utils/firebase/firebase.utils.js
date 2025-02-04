@@ -5,7 +5,9 @@ import {getAuth,
         signInWithPopup,
         GoogleAuthProvider,
         createUserWithEmailAndPassword,
-        signInWithEmailAndPassword 
+        signInWithEmailAndPassword,
+        signOut,
+        onAuthStateChanged
     } from 'firebase/auth'
 
 import {getFirestore,
@@ -88,3 +90,12 @@ export const createAuthSignInWithEmailAndPassword = async(email, password) => {
   if(!email || !password ) return;
   return await signInWithEmailAndPassword(auth, email, password)
 }
+
+
+//Sign Out the user
+export const signOutUser =async () => await signOut(auth)
+
+
+//This fun listens to event from auth.and then sends the callback with em. if signed in it will get user data
+//used in user context.jsx - callback is sent from there. to store data in one place. Auth stores the user data and sends to callback
+export const onAuthStateChangedListner = (callback) => onAuthStateChanged(auth,callback)
