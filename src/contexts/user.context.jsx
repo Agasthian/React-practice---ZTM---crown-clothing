@@ -13,7 +13,7 @@ export const UserProvider = ({children}) =>{
 
     useEffect( ()=>{
         const unSubscribe = onAuthStateChangedListner( (user)=>{
-            console.log(user) // the data is received here once the auth state is changed
+           // console.log(user) // the data is received here once the auth state is changed
             if(user){
                 createUserDocumentFromAuth(user) // creates a user in firedb with user data
             }
