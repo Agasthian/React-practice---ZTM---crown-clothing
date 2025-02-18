@@ -41,7 +41,10 @@ const SignUpForm = () => {
         event.preventDefault()
         if(password === confirmPassword){
             try{
-                await createAuthUserWithEmailAndPassword(email, password)
+                const {user}= await createAuthUserWithEmailAndPassword(
+                        email, 
+                        password
+                    )
                 await createUserDocumentFromAuth(user,{displayName})
                 onResetFormFields()
             }catch(error){
