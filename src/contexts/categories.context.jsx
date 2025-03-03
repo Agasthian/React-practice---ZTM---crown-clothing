@@ -1,36 +1,36 @@
-import {createContext, useState,useEffect} from 'react'
+// import {createContext, useState,useEffect} from 'react'
 
-import {getCategoriesAndDocuments} from '../utils/firebase/firebase.utils.js'
+// import {getCategoriesAndDocuments} from '../utils/firebase/firebase.utils.js'
 
-export const CategoriesContext = createContext({
-    categoriesMap: {},
+// export const CategoriesContext = createContext({
+//     categoriesMap: {},
     
-})
+// })
 
-export const CategoriesProvider = ({children}) => {
-    //useState
-    const[categoriesMap, setCategoriesMap] = useState({})
+// export const CategoriesProvider = ({children}) => {
+//     //useState
+//     const[categoriesMap, setCategoriesMap] = useState({})
     
-    //useEffect 
-    // useEffect(()=>{
-    //     addCollectionAndDocuments('categories', SHOP_DATA)
-    // },[])
+//     //useEffect 
+//     // useEffect(()=>{
+//     //     addCollectionAndDocuments('categories', SHOP_DATA)
+//     // },[])
     
 
-    //This useEffect gets the data from firestore into our react app
-    useEffect(()=>{
-        const getCategoriesMap = async () => {
-            const categoryMap = await getCategoriesAndDocuments()
-            // console.log(categoryMap)
-            setCategoriesMap(categoryMap)
-        }
+//     //This useEffect gets the data from firestore into our react app
+//     useEffect(()=>{
+//         const getCategoriesMap = async () => {
+//             const categoryMap = await getCategoriesAndDocuments()
+//             // console.log(categoryMap)
+//             setCategoriesMap(categoryMap)
+//         }
         
-        getCategoriesMap()
-    },[])
+//         getCategoriesMap()
+//     },[])
 
-    const value={categoriesMap}
+//     const value={categoriesMap}
 
-    return<CategoriesContext.Provider value={value}>
-        {children}
-    </CategoriesContext.Provider>
-}
+//     return<CategoriesContext.Provider value={value}>
+//         {children}
+//     </CategoriesContext.Provider>
+// }

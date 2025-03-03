@@ -1,4 +1,6 @@
+import { useEffect } from "react";
 import {Routes , Route} from 'react-router-dom'
+import {useDispatch} from 'react-redux'
 
 import Home from './routes/home/home.component'
 import Navigation from './routes/navigation/navigation.component'
@@ -6,7 +8,25 @@ import Authentication from './routes/authentication/authentication.component'
 import Shop from './routes/shop/shop.component'
 import Checkout from './routes/checkout/checkout.component'
 
+import {onAuthStateChangedListner,createUserDocumentFromAuth} from './utils/firebase/firebase.utils'
+import {setCurrentUser} from './store/user/user.action'
+
 const App = () => {
+  const dispatch = useDispatch()
+
+  useEffect( ()=>{
+          const unSubscribe = onAuthStateChangedListner( (user)=>{
+              //  console.log(user) // the data is received here once the auth state is changed
+              if(user){
+                  createUserDocumentFromAuth(user) // creates a user in firedb with user data
+              }
+
+              dispatch(setCurrentUser(user))// if signedOut - its Null. If signedIn - its user object. stores the user data to user redux
+          })
+          
+          return unSubscribe
+      },[])
+
   return (
     <Routes>
       <Route element={<Navigation/>}>
