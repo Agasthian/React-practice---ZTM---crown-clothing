@@ -1,12 +1,12 @@
 import React,{useState} from 'react'
+import {useDispatch} from 'react-redux'
 
 import FormInput from '../form-input/form-input.component'
 import Button,{BUTTON_TYPE_CLASSES} from '../button/button.component'
-import {
-    signInWithGooglePopup,
-    createAuthSignInWithEmailAndPassword
-    } from '../../utils/firebase/firebase.utils'
+// import { signInAuthUserWithEmailAndPassword ,signInWithGooglePopup } from '../../utils/firebase/firebase.utils'
+
 import './sign-in-form.styles.scss'
+import {googleSignInStart, emailSignInStart} from '../../store/user/user.action'
 
 const defaultSignInFields = {
     email: '',
@@ -14,6 +14,7 @@ const defaultSignInFields = {
 };
 
 const SignInForm = () => {
+    const dispatch = useDispatch()
 
     //State
     const [signInFields, setSignInFields] = useState(defaultSignInFields)
@@ -23,9 +24,10 @@ const SignInForm = () => {
 
     //signInUserWith Google sign in btn pop-up
     const signInWithGoogle =async ()=>{
-        const  {user} = await signInWithGooglePopup()
-        
+        // const  {user} = await signInWithGooglePopup()
         //console.log(response) // the response{user} is sent to firebase.utils.js - createUserdocFromAuth - to store in firebase db
+        dispatch(googleSignInStart())
+
     }
 
     //onHandle Reset
@@ -40,10 +42,13 @@ const SignInForm = () => {
     }
 
     //onHandleSubmit
-    const onHandleSubmit = async (e) =>{
-        e.preventDefault()
+    const onHandleSubmit = async (event) =>{
+        event.preventDefault();
+        console.log('hi')
         try{
-            await createAuthSignInWithEmailAndPassword(email, password)
+            // await signInAuthUserWithEmailAndPassword (email, password)
+            console.log(email, password)
+            dispatch(emailSignInStart(email,password))
             //console.log(user)
             onResetFormFields()
         }catch(error){

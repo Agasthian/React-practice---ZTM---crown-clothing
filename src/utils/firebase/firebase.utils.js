@@ -77,32 +77,73 @@ export const getCategoriesAndDocuments = async () => {
 //signInWithGooglePopup service from 'firebase/auth'
 //access the db // used inside singin.component.jsx file
 //this function takes user data as input and store in tha firebase db. The user data is generated from signInWithGooglePopup
-export const createUserDocumentFromAuth = async (userAuth,additionalInfo) => {
+
+export const createUserDocumentFromAuth = async (
+  userAuth,
+  additionalInformation={}
+) => {
   if(!userAuth) return;
+    // console.log('userAuth :>> ', userAuth);
     //the user uid from response is used as unique document id 
     const userDocRef = doc(db, 'users', userAuth.uid)
 
     //userSnapshot
     const userSnapshot = await getDoc(userDocRef)
-    //console.log(userSnapshot.exists())
+    //console.log(!userSnapshot.exists())
+    // console.log('userSnapshot 1 :>> ', userSnapshot);
 
-    if(! userSnapshot.exists()) {
+    if(!userSnapshot.exists()) {
       const {displayName, email} = userAuth;
       const createdAt = new Date();
+      
       try {
         await setDoc(userDocRef,{
           displayName,
           email,
           createdAt,
-          ...additionalInfo //the additinal indo holds the display name from sign up form.it is not generated automatically like signinwith google pop up. so we pass it here so it is not null in firestore db
-        })    
+          ...additionalInformation, //the additinal indo holds the display name from sign up form.it is not generated automatically like signinwith google pop up. so we pass it here so it is not null in firestore db
+        });    
       } catch (error) {
         console.log('Error creating the user', error.message)
       }
-
-      return userDocRef;
+      // console.log('userSnapshot 2 :>> ', userSnapshot);
+      return userSnapshot;
     }
 }
+
+
+
+
+// export const createUserDocumentFromAuth = async (
+//   userAuth,
+//   additionalInformation = {}
+// ) => {
+//   if (!userAuth) return;
+
+//   const userDocRef = doc(db, 'users', userAuth.uid);
+
+//   const userSnapshot = await getDoc(userDocRef);
+
+//   if (!userSnapshot.exists()) {
+//     const { displayName, email } = userAuth;
+//     const createdAt = new Date();
+
+//     try {
+//       await setDoc(userDocRef, {
+//         displayName,
+//         email,
+//         createdAt,
+//         ...additionalInformation,
+//       });
+//     } catch (error) {
+//       console.log('error creating the user', error.message);
+//     }
+//   }
+
+//   return userSnapshot;
+// };
+
+
 
 //createUserWithEmailAndPassword
 //This function uses a firebase service to crete users with email & password. fn used in signup component.jsx
@@ -112,8 +153,9 @@ export const createAuthUserWithEmailAndPassword = async (email , password) =>{
   return await createUserWithEmailAndPassword(auth, email, password)
 }
 
+
 //signInWithEmailAndPassword  - function sign-in user with wmail & password
-export const createAuthSignInWithEmailAndPassword = async(email, password) => {
+export const signInAuthUserWithEmailAndPassword  = async(email, password) => {
   if(!email || !password ) return;
   return await signInWithEmailAndPassword(auth, email, password)
 }
@@ -125,4 +167,35 @@ export const signOutUser =async () => await signOut(auth)
 
 //This fun listens to event from auth.and then sends the callback with em. if signed in it will get user data
 //used in user context.jsx - callback is sent from there. to store data in one place. Auth stores the user data and sends to callback
-export const onAuthStateChangedListner = (callback) => onAuthStateChanged(auth,callback)
+// export const onAuthStateChangedListner = (callback) => onAuthStateChanged(auth,callback)
+
+
+//Redux saga - Promise-fied version of checking if our state has changed. i.e that is a user auth that
+//still exists. Used inside user.saga.js
+// export const getCurrentUser = () =>{
+//   return new Promise((resolve, reject)=>{
+//     const unsubscribe = onAuthStateChanged(
+//       auth,
+//       (userAuth)=>{
+//         unsubscribe();
+//         resolve(userAuth);
+//       },
+//       reject
+//     );
+//   });
+// };
+
+
+export const getCurrentUser = () => {
+  return new Promise((resolve, reject) => {
+    const unsubscribe = onAuthStateChanged(
+      auth,
+      (userAuth) => {
+        unsubscribe();
+        resolve(userAuth);
+        console.log(userAuth)
+      },
+      reject
+    );
+  });
+};
